@@ -1,0 +1,44 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Jim",
+            "age": 29
+        },
+        {
+            "id": 2,
+            "name": "Ben",
+            "age": 24
+        },
+        {
+            "id": 3,
+            "name": "Sally",
+            "age": 38
+        },
+        {
+            "name": "Jonah",
+            "age": 41,
+            "id": 4
+        },
+        {
+            "name": "Ellen",
+            "age": 19,
+            "id": 5
+        },
+        {
+            "name": "Mandy",
+            "age": 23,
+            "id": 6
+        },
+        {
+            "name": "Mike",
+            "age": 86,
+            "id": 7
+        },
+        {
+            "name": "Sarah",
+            "age": 57,
+            "id": 8
+        }
+    ]
+}
