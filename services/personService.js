@@ -17,7 +17,7 @@ const getPeople = data => JSON.parse(data).people.map(person => formatPerson(per
 
 module.exports.getAllPeople = async () => {
     // Interface with database
-    const data = await fs.readFile(`${__dirname}/../fakedata.json`);
+    const data = await fs.readFile(`${__dirname}/../db/fakedata.json`);
     const people = getPeople(data);
     // Validate against model
     if (!people.every(person => isPerson(person))) {
@@ -29,7 +29,7 @@ module.exports.getAllPeople = async () => {
 
 module.exports.getPersonById = async (id) => {
     // Interface with database
-    const data = await fs.readFile(`${__dirname}/../fakedata.json`);
+    const data = await fs.readFile(`${__dirname}/../db/fakedata.json`);
     const people = getPeople(data);
     const person = people.find(person => person.id === id);
     // Validate against model
